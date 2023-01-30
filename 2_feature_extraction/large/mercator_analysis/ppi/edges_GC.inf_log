@@ -1,0 +1,127 @@
+
+===========================================================================================
+Mercador: accurate embeddings of graphs in the S1 space
+version: 0.9
+started on: 2022/09/28 14:47 UTC
+edgelist filename: edges_GC.edge
+seed: 1664376476
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    16437
+    Nb edges:                       233940
+    Average degree:                 28.47
+    Minimum degree:                 1
+    Maximum degree:                 650
+    Nb of degree class:             292
+    Average clustering:             0.09153
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.0087               0.5557 
+         1.5043               0.3641 
+         1.2522               0.2308 
+         1.1261               0.1595 
+         1.0630               0.1321 
+         1.0315               0.1175 
+         1.0158               0.1083 
+WARNING: value too close to 1, using beta =      1.0079.
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 28.4650
+    Minimum degree:                 1
+    Maximum degree:                 650
+    Average clustering:             0.1083
+    Parameters
+      - beta:                       1.0079
+      - mu:                         0.0003
+      - radius_S1 (R):              2616.0298
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+
+    Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
+
+    Sum of the angular positions (before adjustment): 51.8641
+                                     .................................................done.
+
+Refining the positions...
+    ...of vertices       [1,821]......done in 421.3854 seconds (739/821 changed position)
+    ...of vertices    [822,1642]......done in 419.0861 seconds (730/821 changed position)
+    ...of vertices   [1643,2463]......done in 418.0470 seconds (716/821 changed position)
+    ...of vertices   [2464,3284]......done in 418.0564 seconds (710/821 changed position)
+    ...of vertices   [3285,4105]......done in 417.4099 seconds (723/821 changed position)
+    ...of vertices   [4106,4926]......done in 417.2202 seconds (723/821 changed position)
+    ...of vertices   [4927,5747]......done in 417.0596 seconds (698/821 changed position)
+    ...of vertices   [5748,6568]......done in 418.4102 seconds (696/821 changed position)
+    ...of vertices   [6569,7389]......done in 417.0308 seconds (704/821 changed position)
+    ...of vertices   [7390,8210]......done in 416.6611 seconds (724/821 changed position)
+    ...of vertices   [8211,9031]......done in 416.3604 seconds (719/821 changed position)
+    ...of vertices   [9032,9852]......done in 417.7119 seconds (735/821 changed position)
+    ...of vertices  [9853,10673]......done in 416.3320 seconds (750/821 changed position)
+    ...of vertices [10674,11494]......done in 416.5771 seconds (738/821 changed position)
+    ...of vertices [11495,12315]......done in 425.5400 seconds (731/821 changed position)
+    ...of vertices [12316,13136]......done in 418.2173 seconds (734/821 changed position)
+    ...of vertices [13137,13957]......done in 418.3481 seconds (752/821 changed position)
+    ...of vertices [13958,14778]......done in 659.8525 seconds (754/821 changed position)
+    ...of vertices [14779,15599]......done in 678.1436 seconds (538/821 changed position)
+    ...of vertices [15600,16420]......done in 636.0488 seconds (385/821 changed position)
+    ...of vertices [16421,16437]......done in 8.6104 seconds ( 10/ 17 changed position)
+                         .............................................................done.
+
+Updating values of kappa based on inferred positions...
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                                                       ...............................done.
+
+    => Inferred coordinates saved to edges_GC.inf_coord
+
+Internal parameters and options
+    ALREADY_INFERRED_PARAMETERS_FILENAME   
+    BETA_ABS_MAX                           25
+    BETA_ABS_MIN                           1.01
+    CHARACTERIZATION_MODE                  false
+    CHARACTERIZATION_NB_GRAPHS             100
+    CLEAN_RAW_OUTPUT_MODE                  false
+    CUSTOM_BETA                            false
+    CUSTOM_CHARACTERIZATION_NB_GRAPHS      false
+    CUSTOM_INFERRED_COORDINATES            false
+    CUSTOM_OUTPUT_ROOTNAME_MODE            false
+    CUSTOM_SEED                            false
+    EDGELIST_FILENAME:                     edges_GC.edge
+    EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+    EXP_DIST_NB_INTEGRATION_STEPS          1000
+    KAPPA_MAX_NB_ITER_CONV                 500
+    KAPPA_POST_INFERENCE_MODE              true
+    MAXIMIZATION_MODE                      true
+    MIN_NB_ANGLES_TO_TRY                   100
+    NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+    NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+    NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+    NUMERICAL_ZERO                         1e-10
+    QUIET_MODE                             false
+    REFINE_MODE                            false
+    ROOTNAME_OUTPUT:                       edges_GC
+    SEED                                   1664376476
+    VALIDATION_MODE                        false
+    VERBOSE_MODE                           false
+    VERSION                                0.9
+
+Ended on: 2022/09/28 18:01 UTC
+Elapsed CPU time (embedding):            11530.7883 seconds
+    initialization:                          3.3306 seconds
+    parameters inference:                  392.4649 seconds
+    initial positions:                      15.6822 seconds
+    refining positions:                   9092.1114 seconds
+    adjusting kappas:                     2027.1992 seconds
+===========================================================================================
