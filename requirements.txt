@@ -89,7 +89,7 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
 pycairo==1.23.0
 pycparser==2.21
-Pygments==2.14.0
+Pygments==2.15.0
 PyGObject==3.42.2
 pyOpenSSL==23.0.0
 pyparsing==3.0.9
