@@ -131,3 +131,24 @@ dmypy.json
 .idea/
 
 *.DS_Store*
+
+biogrid/
+iid/
+biogrid_netowrk.csv
+biogrid_ppi.sav
+iid_network.csv
+idd_ppi.sav
+old/*
+biogrid.zip
+HuRi.tsv
+iid.gz
+/old/4_evaluation_old/
+/1_ppi_networks/biogrid_network.csv
+/1_ppi_networks/iid_ppi.sav
+/2_feature_extraction/biogrid/
+/4_hyperparameter_search/biogrid/
+/6_feature_importance/biogrid/
+/6_feature_importance/iid/
+/old/
+3_eda/.DS_Store
+*/.DS_Store

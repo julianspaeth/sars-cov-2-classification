@@ -1,0 +1,1 @@
+{"var_thresh__threshold": 0.15, "imputer__weights": "uniform", "imputer__n_neighbors": 10, "clf__n_estimators": 2000, "clf__min_samples_split": 5, "clf__min_samples_leaf": 4, "clf__max_features": null, "clf__max_depth": 20, "clf__criterion": "gini", "clf__class_weight": "balanced_subsample", "clf__bootstrap": true}

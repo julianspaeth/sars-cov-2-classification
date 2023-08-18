@@ -1,0 +1,1 @@
+{"var_thresh__threshold": 0.15, "imputer__weights": "distance", "imputer__n_neighbors": 20, "clf__n_estimators": 1000, "clf__min_samples_split": 5, "clf__min_samples_leaf": 2, "clf__max_features": "log2", "clf__max_depth": 10, "clf__criterion": "entropy", "clf__class_weight": null, "clf__bootstrap": false}
